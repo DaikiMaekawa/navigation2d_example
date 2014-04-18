@@ -1,5 +1,8 @@
+<?xml version="1.0"?>
+
 <launch>
   <master auto="start"/>
+  <include file="$(find navigation2d_example)/launch/hector_hokuyo.launch"/>
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
     <rosparam file="$(find navigation2d_example)/param/costmap_common_params.yaml" command="load" ns="global_costmap"/>
     <rosparam file="$(find navigation2d_example)/param/costmap_common_params.yaml" command="load" ns="local_costmap"/>
