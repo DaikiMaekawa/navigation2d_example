@@ -2,6 +2,12 @@
 
 ![rosgraph](http://daikimaekawa.github.io/images/navigation/rosgraph.png)
 
+## Install the dependency packages
+
+```sh
+$ sudo aptitude install ros-<distro>-move-base
+```
+
 ## Usage
 
 ```sh
