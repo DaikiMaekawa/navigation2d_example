@@ -1,3 +1,7 @@
+# ros-navigation2d-example
+
+Example for using UTM-30LX with navigation2d of ROS node
+
 ## rosgraph
 
 ![rosgraph](http://daikimaekawa.github.io/images/navigation/rosgraph.png)
