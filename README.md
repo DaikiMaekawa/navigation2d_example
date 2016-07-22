@@ -4,10 +4,6 @@ Example for using UTM-30LX with navigation2d of ROS node
 
 http://daikimaekawa.github.io/ros/2014/04/20/Navigation2d/
 
-## rosgraph
-
-![rosgraph](http://daikimaekawa.github.io/images/navigation/rosgraph.png)
-
 ## Install the dependency packages
 
 ```sh
